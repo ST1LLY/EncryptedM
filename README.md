@@ -9,7 +9,7 @@ List of used modules:
 *	Crypto
 *	Thread
 
-First, need to input secret AES-key in AES_KEY.txt (16/24/32 bytes), which to know only two persons. Second, to fill fields of the form:
+First, need to input secret AES-key in `AES_KEY.txt` (16/24/32 bytes), which to know only two persons. Second, to fill fields of the form:
 *	«destination IP» is IP address of catcher host in LAN
 *	«my IP» is your IP in LAN
 *	«port» is used the port with App.
