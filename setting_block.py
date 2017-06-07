@@ -16,7 +16,7 @@ class setting_block(Frame):
         row_4 = Frame(parent)
 
         # All set of widgets of setting block (Весь набор виджетов блока настроек)
-        lab_ip = Label(row_1, width=15,text='destionation IP:')
+        lab_ip = Label(row_1, width=15,text='destination IP:')
         ent_ip = Entry(row_1)
 
         lab_my_ip = Label(row_2, width=15, text='my IP:')
