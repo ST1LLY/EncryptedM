@@ -10,16 +10,16 @@ class input_block(Frame):
 
     def ib_makewidgets(self,parent=None):
 
-        # Rows of frame for drawing widgets
+        # Rows of the frame for drawing widgets
         row_1 = Frame(parent)
         row_2 = Frame(parent)
 
-        # All set of widgets of input block
+        # Whole set of widgets of the input block
         sbar = Scrollbar(row_1)
         text = Text(row_1)
         btn = Button(row_2)
 
-        # Setting of widgets
+        # Settings of the widgets
         text.config(yscrollcommand=sbar.set, width=40, height=5, relief=SUNKEN)
         sbar.config(command=text.yview)
         btn.config(text='Send', command=self.ib_press_button, width=10, state=DISABLED)
