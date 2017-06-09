@@ -27,7 +27,7 @@ class output_block(Frame):
         #self.ob_text.focus()
 
     def gettext(self):
-        return self.ob_text.get('1.0', END+'-1c') # all text
+        return self.ob_text.get('1.0', END+'-1c') # whole text
     def send_text(self):
         pass
 
